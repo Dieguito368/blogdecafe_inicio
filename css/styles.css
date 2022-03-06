@@ -82,6 +82,12 @@ img {
     padding: 0 2rem;
 }
 
+@media (min-width: 992px) {
+    .header {
+        height: 100vh;
+    }
+}
+
 .header__texto {
     text-align: center;
     color: var(--blanco);
@@ -128,4 +134,13 @@ img {
     text-align: center;
     font-size: 2rem;
     color: var(--blanco);
+}
+
+/* Contenido Principal */
+@media (min-width: 768px) {
+    .contenido-principal {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 4rem;
+    }
 }
