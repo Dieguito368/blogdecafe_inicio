@@ -87,12 +87,6 @@ img {
     padding: 0 2rem;
 }
 
-@media (min-width: 992px) {
-    .header {
-        height: 100vh;
-    }
-}
-
 .header__texto {
     text-align: center;
     color: var(--blanco);
@@ -258,4 +252,27 @@ img {
     margin-top: 4rem;
     background-color: var(--negro);
     padding-bottom: 2rem;
+}
+
+/* Página Sobre Nosotros */
+@media (min-width: 768px) {
+    .sobre-nosotros {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 3rem;
+    }
+}
+
+.sobre-nosotros__texto{
+    margin-top: 1rem;
+}
+
+.sobre-nosotros__texto p:last-of-type {
+    margin-top: 2rem;
+}
+
+@media (min-width: 768px) {
+    .sobre-nosotros__texto {
+        margin-top: 0;
+    }
 }
