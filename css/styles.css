@@ -299,3 +299,9 @@ img {
     margin-bottom: 5rem;
     padding-bottom: 3rem;
 }
+
+/* Págona Entrada Blog */
+.entrada-blog__contenido {
+    font-size: 1.8rem;
+    text-align: justify;
+}
