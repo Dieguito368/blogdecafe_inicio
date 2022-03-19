@@ -305,3 +305,12 @@ img {
     font-size: 1.8rem;
     text-align: justify;
 }
+
+/* Página Contacto */
+.contacto-background {
+    background-image: url(../img/contacto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+}
+
