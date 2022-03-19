@@ -193,9 +193,14 @@ img {
     color: var(--blanco);
     text-align: center;
     padding: 1rem 3rem;
+    border: none;
     font-size: 1.8rem;
     text-transform: uppercase;
     font-weight: 700;
+}
+
+.boton:hover {
+    cursor: pointer;
 }
 
 @media (min-width: 768px) {
@@ -314,3 +319,79 @@ img {
     height: 40rem;
 }
 
+.formulario {
+    background-color: var(--blanco);
+    margin: -5rem auto 0 auto;
+    width: 95%;
+    padding: 2rem;
+}
+
+@media (min-width: 768px) {
+    .formulario {
+        padding: 5rem;
+        padding-bottom: 1rem;
+    }
+}
+
+.campo {
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+    .campo {
+        margin-bottom: 3.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
+
+.campo__label {
+    display: block;
+    margin-bottom: .2rem;
+    font-size: 1.8rem;
+}
+
+@media(min-width: 768px) {
+    .campo__label {
+        flex: 0 0 9rem;
+        text-align: right;
+        margin-right: 2rem;
+    }
+}
+
+.campo__field {
+    width: 100%;
+    border: 1px solid var(--grisClaro);
+    padding: 1rem;
+    font-size: 1.8rem;
+}
+
+@media (min-width: 768px) {
+    .campo__field {
+        flex: 1;
+    }
+}
+
+.campo__field--textarea {
+    height: 15rem;
+    width: 100%;
+    resize: none;
+}
+
+.formulario .boton {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+@media (min-width: 768px) {
+    .formulario .boton {
+        width: auto;
+        margin: 0;
+    }
+    
+    .campo--boton {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
