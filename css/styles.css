@@ -272,6 +272,10 @@ img {
     margin-top: 1rem;
 }
 
+.sobre-nosotros__texto p {
+    text-align: justify;
+}
+
 .sobre-nosotros__texto p:last-of-type {
     margin-top: 2rem;
 }
